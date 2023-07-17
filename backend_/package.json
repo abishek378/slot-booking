@@ -7,7 +7,7 @@
     "nodemon": "^3.0.1"
   },
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "node server.js",
     "build": "npm i"
   },
   "name": "booking-task-bkd",
