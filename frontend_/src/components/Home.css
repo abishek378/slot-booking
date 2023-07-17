@@ -1,0 +1,102 @@
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 50px;
+    margin-left: 70px;
+    padding: 50px;
+}
+
+
+#slots {
+    width: 400px;
+
+}
+
+#slot_box > h2{
+ text-align: center;
+}
+
+.btn {
+    width: 100%;
+    background-color: transparent;
+    border: grey 2px solid;
+    padding: 15px;
+    margin: 20px;
+    font-size: larger;
+    font-weight: 600;
+    color: #1087FF;
+}
+
+.btn:hover {
+    background-color: rgba(150, 150, 150, 0.2);
+}
+
+.btn:disabled {
+    border-color: rgb(167, 167, 167);
+    cursor: not-allowed;
+    color: rgb(162, 162, 162);
+}
+
+
+
+#modal {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#form {
+    width: 100%;
+    max-width: 300px;
+    padding: 40px;
+    border-radius: 4px;
+
+} 
+
+#form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#form button {
+    margin-right: 20px;
+}
+
+#form button:hover {
+    background-color: #dadada;
+}
+
+
+
+
+@media (max-width: 768px) {
+  #main {
+    flex-wrap: wrap;
+    margin-top: 500px;
+    margin-left: 160px;
+  }
+} 
